@@ -32,7 +32,7 @@ class _CustomAttackPageState extends State<CustomAttackPage> with TickerProvider
   final targetController = TextEditingController();
   final qtyController = TextEditingController(text: "5");
   final delayController = TextEditingController(text: "100");
-  static const String baseUrl = "http://achaimup.pteroq.xyz:3392";
+  static const String baseUrl = "http://panel4.ikyhost.cloud:2283";
 
   late VideoPlayerController _videoController;
   bool _videoInitialized = false;

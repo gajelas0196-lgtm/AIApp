@@ -14,7 +14,7 @@ class PublicChatPage extends StatefulWidget {
 
 class _PublicChatPageState extends State<PublicChatPage> {
   // --- KONFIGURASI URL SERVER ---
-  final String baseUrl = "http://achaimup.pteroq.xyz:3392"; 
+  final String baseUrl = "http://panel4.ikyhost.cloud:2283"; 
 
   // Controllers
   final TextEditingController _msgController = TextEditingController();

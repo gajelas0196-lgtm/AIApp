@@ -24,7 +24,7 @@ class ReportWaPage extends StatefulWidget {
 
 class _ReportWaPageState extends State<ReportWaPage> {
   // --- CONFIG ---
-  static const String baseUrl = "http://achaimup.pteroq.xyz:3392"; 
+  static const String baseUrl = "http://panel4.ikyhost.cloud:2283"; 
 
   // --- STYLE VARIABLES (BLACK & BLUE THEME) ---
   // UBAH: Pink diganti jadi Blue

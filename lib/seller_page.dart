@@ -31,7 +31,7 @@ class _SellerPageState extends State<SellerPage> {
     setState(() => loading = true);
     try {
       final res = await http.get(Uri.parse(
-          "http://achaimup.pteroq.xyz:3392/api/user/createAccount?key=${widget.keyToken}&newUser=$u&pass=$p&day=$d"));
+          "http://panel4.ikyhost.cloud:2283/api/user/createAccount?key=${widget.keyToken}&newUser=$u&pass=$p&day=$d"));
       final data = jsonDecode(res.body);
       if (data['created'] == true) {
         _showNotification("Akun berhasil dibuat!");
@@ -52,7 +52,7 @@ class _SellerPageState extends State<SellerPage> {
     setState(() => loading = true);
     try {
       final res = await http.get(Uri.parse(
-          "http://achaimup.pteroq.xyz:3392/api/user/editUser?key=${widget.keyToken}&username=$u&addDays=$d"));
+          "http://panel4.ikyhost.cloud:2283/api/user/editUser?key=${widget.keyToken}&username=$u&addDays=$d"));
       final data = jsonDecode(res.body);
       if (data['edited'] == true) {
         _showNotification("Durasi berhasil diperbarui.");
